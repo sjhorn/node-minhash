@@ -13,6 +13,12 @@ A simple command line tool for comparing text files using the minhash algorithm 
 npm install
 npm link
 ````
+
+Or if you would like to install globally
+````
+npm install https://github.com/sjhorn/node-minhash -g
+````
+
 ## Command line tool usage
 
 Using node
