@@ -2,6 +2,9 @@
 
 A simple command line tool for comparing text files using the minhash algorithm and contrasting with the jaccard index.
 
+[![Build Status](https://travis-ci.org/sjhorn/node-minhash.svg?branch=master)](https://travis-ci.org/sjhorn/node-minhash)
+
+
 ## References
 
 * [MinHash tutorial in python](https://github.com/chrisjmccormick/MinHash)
