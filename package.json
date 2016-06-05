@@ -1,41 +1,47 @@
 {
-  "name": "node-minhash",
-  "version": "0.1.0",
-  "description": "Command Line tool that compares two text files using minhash",
-  "homepage": "https://github.com/sjhorn/node-minhash",
-  "keywords": [
-      "minhash",
-      "jaccard index",
-      "compare text"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/sjhorn/node-minhash.git"
-  },
-  "bugs": "https://github.com/sjhorn/node-minhash/issues",
-  "engines": {
-    "node": "6.2.x"
-  },
-  "main": "lib/minhash.js",
-  "directories": {
-    "bin": "bin",
-    "lib": "lib",
-    "test": "test"
-  },
-  "dependencies": {
-    "crc-32": "~0.3.0",
-    "natural": "0.4.0",
-    "node-fetch": "^1.5.3",
-    "yargs": "^4.7.1"
-  },
-  "bin": {
-    "minhash": "bin/minhash"
-  },
-  "licenses": [
-   {
-     "type": "Apache",
-     "url": "https://github.com/sjhorn/node-minhash/blob/master/LICENSE"
-   }
-  ],
-  "author": "Scott Horn"
+    "name": "node-minhash",
+    "version": "0.1.0",
+    "description": "Command Line tool that compares two text files using minhash",
+    "homepage": "https://github.com/sjhorn/node-minhash",
+    "keywords": [
+        "minhash",
+        "jaccard index",
+        "compare text"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/sjhorn/node-minhash.git"
+    },
+    "bugs": "https://github.com/sjhorn/node-minhash/issues",
+    "engines": {
+        "node": "6.2.x"
+    },
+    "main": "lib/minhash.js",
+    "directories": {
+        "bin": "bin",
+        "lib": "lib",
+        "test": "test"
+    },
+    "dependencies": {
+        "crc-32": "~0.3.0",
+        "natural": "0.4.0",
+        "node-fetch": "^1.5.3",
+        "yargs": "^4.7.1"
+    },
+    "devDependencies": {
+        "nodeunit": "^0.9.1"
+    },
+    "bin": {
+        "simhash": "bin/minhash"
+    },
+    "scripts": {
+        "test": "nodeunit"
+    },
+    "licenses": [
+        {
+            "type": "Apache",
+            "url": "https://github.com/sjhorn/node-minhash/blob/master/LICENSE"
+        }
+    ],
+    "author": "Scott Horn"
 }
