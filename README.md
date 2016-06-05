@@ -4,7 +4,8 @@ A simple command line tool for comparing text files using the minhash algorithm 
 
 ## References
 
-[Near duplicate detection (moz.com)](https://moz.com/devblog/near-duplicate-detection/)
+* [MinHash tutorial in python](https://github.com/chrisjmccormick/MinHash)
+* [Near duplicate detection (moz.com)](https://moz.com/devblog/near-duplicate-detection/)
 
 ## Installation
 
