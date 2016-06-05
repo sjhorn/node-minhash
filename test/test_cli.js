@@ -14,7 +14,6 @@ exports['Cli Compare Files'] = function(test) {
         if (error != null) {
             test.ok(false, "cli does not successfully compare files");
         } else {
-            console.log(stdout);
             test.ok(stdout.indexOf("Minhash similarity is") != -1, "Failed to display summary");
         }
         test.done();

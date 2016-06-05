@@ -16,6 +16,6 @@ exports.compareSimilarFile = function(test) {
     var file1 = fs.readFileSync("test/sample1.txt", "utf8");
     var file2 = fs.readFileSync("test/sample2.txt", "utf8");
     var rounded = Math.round(minhash.compare(file1, file2) * 100);
-    test.ok(Math.abs(rounded - 48) < 10, "Similarity is not accurate ");
+    test.equal(rounded, 65, "Similarity did not match the expect 65%");
     test.done();
 }
